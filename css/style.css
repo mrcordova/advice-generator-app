@@ -31,20 +31,27 @@ main {
   position: relative;
   background-color: var(--dark-grayish-blue);
   margin-inline: 1rem;
-  padding-block: 1rem;
+  padding-block: 2.5rem 4rem;
+
+  border-radius: 8px;
   padding-inline: 1rem;
+
+  /* gap: 1.5rem; */
 }
 picture {
-  /* padding-block: 3rem; */
+  /* padding-block: 0rem 3rem; */
 }
 .advice-heading {
   color: var(--neon-green);
   font-size: 0.7rem;
   letter-spacing: 0.2rem;
+  padding-block-end: 1.5rem;
 }
 .advice-text {
   color: var(--light-cyan);
   font-size: 1.45rem;
+  /* line-height: 1.4; */
+  padding-block-end: 0.9rem;
 }
 
 .advice-num {
