@@ -27,9 +27,30 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   position: relative;
+  background-color: var(--dark-grayish-blue);
+  margin-inline: 1rem;
+  padding-block: 1rem;
+  padding-inline: 1rem;
+}
+picture {
+  /* padding-block: 3rem; */
+}
+.advice-heading {
+  color: var(--neon-green);
+  font-size: 0.7rem;
+  letter-spacing: 0.2rem;
+}
+.advice-text {
+  color: var(--light-cyan);
+  font-size: 1.45rem;
 }
 
+.advice-num {
+  letter-spacing: 0;
+  font-size: 0.65rem;
+}
 .dice-bg {
   padding-inline: 1.25rem;
   padding-block: 1.25rem;
