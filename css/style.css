@@ -31,14 +31,18 @@ main {
   position: relative;
   background-color: var(--dark-grayish-blue);
 
+  padding-block: clamp(2.5rem, 2.3239rem + 0.7512vw, 3rem)
+    clamp(4rem, 3.8239rem + 0.7512vw, 4.5rem);
+  border-radius: 8px;
+  padding-inline: clamp(1.4rem, 0.9951rem + 1.7277vw, 2.55rem);
   /* Mobile */
   /* padding-block: 2.5rem 4rem; */
   /* border-radius: 8px; */
   /* padding-inline: 1.4rem; */
   /* Desktop */
-  padding-block: 3rem 4.5rem;
-  border-radius: 8px;
-  padding-inline: 2.55rem;
+  /* padding-block: 3rem 4.5rem; */
+  /* border-radius: 8px; */
+  /* padding-inline: 2.55rem; */
 
   /* gap: 1.5rem; */
 }
@@ -48,26 +52,31 @@ picture {
 }
 .advice-heading {
   color: var(--neon-green);
+  font-size: clamp(0.7rem, 0.6296rem + 0.3005vw, 0.9rem);
+  letter-spacing: 0.2rem;
+  padding-block-end: clamp(1.5rem, 1.6761rem + -0.7512vw, 1rem);
   /* Mobile */
   /* font-size: 0.7rem; */
   /* letter-spacing: 0.2rem; */
   /* padding-block-end: 1.5rem; */
   /* Desktop */
-  font-size: 0.9rem;
-  letter-spacing: 0.2rem;
-  padding-block-end: 1rem;
+  /* font-size: 0.9rem; */
+  /* letter-spacing: 0.2rem; */
+  /* padding-block-end: 1rem; */
 }
 .advice-text {
   color: var(--light-cyan);
+  font-size: clamp(1.45rem, 1.362rem + 0.3756vw, 1.7rem);
+  padding-block-end: clamp(0.9rem, 0.5127rem + 1.6526vw, 2rem);
   /* Mobile */
-  font-size: 1.45rem;
+  /* font-size: 1.45rem; */
   max-width: 19ch;
   /* padding-block-end: 0.9rem; */
   /* Desktop */
-  font-size: 1.7rem;
-  max-width: 25ch;
+  /* font-size: 1.7rem; */
+  /* max-width: 25ch; */
   /* padding-block-start: 2rem; */
-  padding-block-end: 2rem;
+  /* padding-block-end: 2rem; */
 }
 
 .advice-num {
@@ -87,4 +96,10 @@ picture {
 .dice-bg:hover {
   cursor: pointer;
   box-shadow: 0px 0px 40px 0px var(--neon-green);
+}
+
+@media (min-width: 35rem) {
+  .advice-text {
+    max-width: 25ch;
+  }
 }
