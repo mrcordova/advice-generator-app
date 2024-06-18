@@ -30,11 +30,11 @@ main {
   text-align: center;
   position: relative;
   background-color: var(--dark-grayish-blue);
-  margin-inline: 1rem;
+  /* margin-inline: 0.5rem; */
   padding-block: 2.5rem 4rem;
 
   border-radius: 8px;
-  padding-inline: 1rem;
+  padding-inline: 1.4rem;
 
   /* gap: 1.5rem; */
 }
@@ -50,6 +50,7 @@ picture {
 .advice-text {
   color: var(--light-cyan);
   font-size: 1.45rem;
+  max-width: 19ch;
   /* line-height: 1.4; */
   padding-block-end: 0.9rem;
 }
