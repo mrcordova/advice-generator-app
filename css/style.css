@@ -36,14 +36,14 @@ main {
   /* border-radius: 8px; */
   /* padding-inline: 1.4rem; */
   /* Desktop */
-  padding-block: 3.1rem 4.9rem;
+  padding-block: 3rem 4.5rem;
   border-radius: 8px;
   padding-inline: 2.55rem;
 
   /* gap: 1.5rem; */
 }
 picture {
-  /* padding-block: 0rem 3rem; */
+  /* padding-block-start: 4rem; */
   color: var(--grayish-blue);
 }
 .advice-heading {
@@ -55,18 +55,19 @@ picture {
   /* Desktop */
   font-size: 0.9rem;
   letter-spacing: 0.2rem;
-  padding-block-end: 1.5rem;
+  padding-block-end: 1rem;
 }
 .advice-text {
   color: var(--light-cyan);
   /* Mobile */
   font-size: 1.45rem;
   max-width: 19ch;
-  padding-block-end: 0.9rem;
+  /* padding-block-end: 0.9rem; */
   /* Desktop */
   font-size: 1.7rem;
   max-width: 25ch;
-  padding-block-end: 2.4rem;
+  /* padding-block-start: 2rem; */
+  padding-block-end: 2rem;
 }
 
 .advice-num {
